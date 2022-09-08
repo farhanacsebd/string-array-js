@@ -6,15 +6,26 @@ const products =[
     'purpel color phone with LapTop',
     'LG supernova laptop',
     'Lava smart phone',
-    'corei7 laptop'
+    'corei7 laptop',
+    'Grammin Phone'
 ]
 
-const shearch = 'laptop';
+const search = 'phone';
 
 const output =[];
+
+// indexOf
 for(product of products){
-   if(product.indexOf(shearch)!=-1){
-    output.push(product);
+   if(product.toLowerCase().indexOf(search.toLowerCase())!=-1){
+    // output.push(product);
    }
+}
+// console.log(output);
+
+
+for(product of products){
+    if(product.toLowerCase().includes(search.toLowerCase())){
+        output.push(product)
+    }
 }
 console.log(output);
