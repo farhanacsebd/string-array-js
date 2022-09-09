@@ -10,12 +10,12 @@ const products =[
     'Grammin Phone'
 ]
 
-const search = 'phone';
+const search = 'dell';
 
 const output =[];
 
 // indexOf
-for(product of products){
+for(const product of products){
    if(product.toLowerCase().indexOf(search.toLowerCase())!=-1){
     // output.push(product);
    }
@@ -23,8 +23,15 @@ for(product of products){
 // console.log(output);
 
 
-for(product of products){
+/* for(const product of products){
     if(product.toLowerCase().includes(search.toLowerCase())){
+        output.push(product)
+    }
+}
+console.log(output); */
+
+for(const product of products){
+    if(product.toLowerCase().startsWith(search.toLowerCase())){
         output.push(product)
     }
 }
