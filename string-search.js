@@ -29,3 +29,5 @@ for(product of products){
     }
 }
 console.log(output);
+
+
