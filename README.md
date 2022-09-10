@@ -144,5 +144,10 @@ const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
 const anotherPart = anthum.substr(11,7)
 console.log(anotherPart);
 ```
+- substring or slice both are same.
 ```javascript
+const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
+// substring
+const anotherAnotherPart = anthum.substring(2,10)
+console.log(anotherAnotherPart);
 ```

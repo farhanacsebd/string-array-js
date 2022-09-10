@@ -5,8 +5,12 @@ const words=anthum.split(' ');
 
 // slice
 const smallSlice = anthum.slice(0,10)
-// console.log(smallSlice);
+console.log(smallSlice);
 
 // substr
 const anotherPart = anthum.substr(2,10)
-console.log(anotherPart);
+// console.log(anotherPart);
+
+// substring
+const anotherAnotherPart = anthum.substring(2,10)
+console.log(anotherAnotherPart);
