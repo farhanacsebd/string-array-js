@@ -120,3 +120,14 @@ for(const product of products){
 }
 console.log(output);
 ```
+### How to split, slice, substr, substring, concat, join:
+- Splits a string into an array of smaller substrings.
+```javascript
+// split
+const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
+const words=anthum.split(' ');
+```
+```javascript
+```
+```javascript
+```
