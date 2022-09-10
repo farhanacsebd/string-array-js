@@ -151,7 +151,7 @@ const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
 const anotherAnotherPart = anthum.substring(2,10)
 console.log(anotherAnotherPart);
 ```
-- concat the string.
+- concat() join all the string.
 ```javascript
 // concat
 const first = 'Amar';
@@ -160,6 +160,7 @@ const second ='City';
 const fullString = first.concat(second).concat('@gmail')
 console.log(fullString);
 ```
+- join() converts all string elements to an array.
 ```javascript
 
 ```
