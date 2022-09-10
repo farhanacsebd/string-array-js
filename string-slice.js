@@ -20,4 +20,14 @@ const first = 'Amar';
 const second ='City';
 // const fullString = first + second;
 const fullString = first.concat(second).concat('@gmail')
-console.log(fullString);
+// console.log(fullString);
+
+
+// join()
+
+const words2 = ['a','b','c','d'];
+// const fullJoins = words2.join('');
+// const fullJoins = words2.join(' ');
+// const fullJoins = words2.join(',');
+const fullJoins = words2.join(', ');
+console.log(fullJoins);

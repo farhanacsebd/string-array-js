@@ -162,7 +162,14 @@ console.log(fullString);
 ```
 - join() converts all string elements to an array.
 ```javascript
+// join()
 
+const words2 = ['a','b','c','d'];
+// const fullJoins = words2.join('');
+// const fullJoins = words2.join(' ');
+// const fullJoins = words2.join(',');
+const fullJoins = words2.join(', ');
+console.log(fullJoins);
 ```
 ```javascript
 
