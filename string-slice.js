@@ -4,8 +4,9 @@ const words=anthum.split(' ');
 // console.log(words);
 
 // slice
-const smallSlice = anthum.slice(2,10)
-console.log(smallSlice);
+const smallSlice = anthum.slice(0,10)
+// console.log(smallSlice);
 
+// substr
 const anotherPart = anthum.substr(2,10)
-// console.log(anotherPart);
+console.log(anotherPart);

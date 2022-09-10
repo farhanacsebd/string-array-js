@@ -123,19 +123,22 @@ console.log(output);
 ### How to split, slice, substr, substring, concat, join:
 - Splits a string into an array of smaller substrings.
 ```javascript
-// split
 const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
+// split
 const words=anthum.split(' ');
 console.log(words)
 ```
 - Slice Extracts a small portion of a string and returns it.
 ```javascript
+const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
 // slice
 const smallSlice = anthum.slice(2,10)
 console.log(smallSlice);
 ```
-- 
+- It will return as many calls starting from a position.
 ```javascript
+const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
+// substr
 const anotherPart = anthum.substr(2,10)
 console.log(anotherPart);
 ```
