@@ -41,6 +41,7 @@ for(const product of products){
 }
 console.log(output);
 ```
+`includes`
 ```javascript
 const products =[
     'Dell hardcore i29 200GB processor laptop',
@@ -66,7 +67,7 @@ for(const product of products){
 }
 console.log(output);
 ```
-
+`startsWith`
 ```javascript
 const products =[
     'Dell hardcore i29 200GB processor laptop',
@@ -93,6 +94,7 @@ for(const product of products){
 console.log(output);
 
 ```
+`endsWith`
 ```javascript
 const products =[
     'Dell hardcore i29 200GB processor laptop',
