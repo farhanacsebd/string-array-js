@@ -127,7 +127,11 @@ console.log(output);
 const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
 const words=anthum.split(' ');
 ```
+- Slice Extracts a small portion of a string and returns it.
 ```javascript
+// slice
+const smallSlice = anthum.slice(2,10)
+console.log(smallSlice);
 ```
 ```javascript
 ```
