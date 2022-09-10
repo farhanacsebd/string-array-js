@@ -133,5 +133,10 @@ const words=anthum.split(' ');
 const smallSlice = anthum.slice(2,10)
 console.log(smallSlice);
 ```
+- 
+```javascript
+const anotherPart = anthum.substr(2,10)
+console.log(anotherPart);
+```
 ```javascript
 ```
