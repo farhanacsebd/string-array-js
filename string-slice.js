@@ -5,7 +5,7 @@ const words=anthum.split(' ');
 
 // slice
 const smallSlice = anthum.slice(0,10)
-console.log(smallSlice);
+// console.log(smallSlice);
 
 // substr
 const anotherPart = anthum.substr(2,10)
@@ -13,4 +13,11 @@ const anotherPart = anthum.substr(2,10)
 
 // substring
 const anotherAnotherPart = anthum.substring(2,10)
-console.log(anotherAnotherPart);
+// console.log(anotherAnotherPart);
+
+// concat
+const first = 'Amar';
+const second ='City';
+// const fullString = first + second;
+const fullString = first.concat(second).concat('@gmail')
+console.log(fullString);

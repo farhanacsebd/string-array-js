@@ -151,3 +151,18 @@ const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
 const anotherAnotherPart = anthum.substring(2,10)
 console.log(anotherAnotherPart);
 ```
+- concat the string.
+```javascript
+// concat
+const first = 'Amar';
+const second ='City';
+// const fullString = first + second;
+const fullString = first.concat(second).concat('@gmail')
+console.log(fullString);
+```
+```javascript
+
+```
+```javascript
+
+```
