@@ -136,10 +136,12 @@ const smallSlice = anthum.slice(2,10)
 console.log(smallSlice);
 ```
 - It will return as many calls starting from a position.
+example- a b c d e f j h
+(7,4)= e f
 ```javascript
 const anthum = 'Amar Sonar Bangla Ami Tomake Valobashi';
 // substr
-const anotherPart = anthum.substr(2,10)
+const anotherPart = anthum.substr(11,7)
 console.log(anotherPart);
 ```
 ```javascript
