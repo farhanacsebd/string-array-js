@@ -1,15 +1,14 @@
 
 function bestfriends(friends){
-    const max = friends[0];
-    for(let friend of friends){
-        // console.log(friend);
+    let max = friends[0];
+    for(const friend of friends){
         if(friend.length>max.length){
             max = friend;
         }
     }
     return max;
 }
-const friendsName =bestfriends(['farhana','nimki','adrita','tirtho']);
+const friendsName =bestfriends(['farhana','nimki','adrita','tirtho','turkiministhan']);
 console.log(friendsName);
 
 

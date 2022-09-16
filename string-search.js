@@ -50,12 +50,12 @@ console.log(output); */
 console.log(output); */
 
 
-for(const product of products){
+/* for(const product of products){
     // console.log(product);
     if(product.toLocaleLowerCase().indexOf(search.toLowerCase()) != -1){
         output.push(product)
     }
     console.log(output);
-}
+} */
 
 
