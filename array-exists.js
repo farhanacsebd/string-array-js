@@ -1,4 +1,3 @@
-
 function bestfriends(friends){
     let max = friends[0];
     for(const friend of friends){
