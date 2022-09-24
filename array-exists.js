@@ -1,4 +1,7 @@
 function bestfriends(friends){
+    if(Array.isArray(friends)==false){
+        return 'provide an array'
+    }
     let max = friends[0];
     for(const friend of friends){
         if(friend.length>max.length){
@@ -7,8 +10,9 @@ function bestfriends(friends){
     }
     return max;
 }
-const friendsName =bestfriends(['farhana','nimki','adrita','tirtho','turkiministhan']);
-console.log(friendsName);
+const friends =['farhana','nimki','adrita','tirtho','turkiministhan'];
+const bigBuddy = bestfriends(1113);
+console.log(bigBuddy);
 
 
 /* function bestFriend(friendNames){
