@@ -15,6 +15,13 @@ const bigBuddy = bestfriends(1113);
 console.log(bigBuddy);
 
 
+if(friends.indexOf('adrita')!=-1){
+    console.log('adrita exits');
+}
+if(friends.includes('nimki')){
+    console.log('nimki exits');
+}
+
 /* function bestFriend(friendNames){
 
     let max = friendNames[0];
