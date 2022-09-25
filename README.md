@@ -215,8 +215,18 @@ const bigBuddy = bestfriends(1113);
 console.log(bigBuddy);
 ```
 
-```javascript
+- indexOf or includes.
 
+```javascript
+if (friends.indexOf("adrita") != -1) {
+  console.log("adrita exits");
+}
+
+// includes
+
+if (friends.includes("nimki")) {
+  console.log("nimki exits");
+}
 ```
 
 ```javascript
