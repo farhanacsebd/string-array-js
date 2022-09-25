@@ -257,18 +257,24 @@ console.log(number1.splice(3, 0, 222, 336, 553, 2178)); //[]
 console.log(number1); // [   33, 534,   24, 222,336, 553, 2178,  76,89,  90,    6,  46]
 ```
 
-```javascript
-
-```
+### Sorting of an array.
 
 ```javascript
 
 ```
 
-```javascript
-
-```
+### Arguments:
 
 ```javascript
+function result(num1, num2) {
+  // console.log(arguments[1]);
+  let sum = 0;
+  for (let num of arguments) {
+    sum = sum + num;
+  }
 
+  return sum;
+}
+
+console.log(result(33, 22, 10, 6, 8, 12));
 ```
