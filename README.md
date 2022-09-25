@@ -270,7 +270,7 @@ const arr2 = ["kabir", "jarim", "kikur", "ayara", "bib"];
 console.log(arr2.sort()); //[ 'ayara', 'bib', 'jarim', 'kabir', 'kikur' ]
 ```
 
-- different way of sort.
+- A different way of sort.
 
 ```javascript
 const arr3 = [22, 53, 767, 234, 43, 15, 75, 89];
@@ -278,6 +278,15 @@ arr3.sort(function (a, b) {
   return a - b;
 });
 console.log(arr3); //[15, 22,  43,  53,75, 89, 234, 767]
+```
+
+- reverse.
+
+```javascript
+const arr2 = ["kabir", "jarim", "zikur", "ayara", "bib", "sakib"];
+
+console.log(arr2.reverse()); //[ 'sakib', 'bib', 'ayara', 'zikur', 'jarim', 'kabir' ]
+console.log(arr2.sort().reverse()); //[ 'zikur', 'sakib', 'kabir', 'jarim', 'bib', 'ayara' ]
 ```
 
 ### Arguments:
@@ -293,5 +302,5 @@ function result(num1, num2) {
   return sum;
 }
 
-console.log(result(33, 22, 10, 6, 8, 12));
+console.log(result(33, 22, 10, 6, 8, 12)); //91
 ```
