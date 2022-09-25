@@ -304,3 +304,10 @@ function result(num1, num2) {
 
 console.log(result(33, 22, 10, 6, 8, 12)); //91
 ```
+
+#### Date
+
+```javascript
+const date = new Date(1971 - 3 - 25);
+console.log(date);
+```
