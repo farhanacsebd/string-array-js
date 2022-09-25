@@ -259,8 +259,25 @@ console.log(number1); // [   33, 534,   24, 222,336, 553, 2178,  76,89,  90,    
 
 ### Sorting of an array.
 
-```javascript
+#### 0-9 / string you may easily sort.but more number like 10 to unlimited then you can't sort easily.You need to code differently.
 
+```javascript
+// easy way:
+const arr1 = [6, 9, 8, 1, 2, 5, 3, 7, 4, 0];
+console.log(arr1.sort()); //[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+const arr2 = ["kabir", "jarim", "kikur", "ayara", "bib"];
+console.log(arr2.sort()); //[ 'ayara', 'bib', 'jarim', 'kabir', 'kikur' ]
+```
+
+- different way of sort.
+
+```javascript
+const arr3 = [22, 53, 767, 234, 43, 15, 75, 89];
+arr3.sort(function (a, b) {
+  return a - b;
+});
+console.log(arr3); //[15, 22,  43,  53,75, 89, 234, 767]
 ```
 
 ### Arguments:
