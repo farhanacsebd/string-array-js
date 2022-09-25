@@ -237,6 +237,34 @@ const second = [55, 44, 24, 78, 61];
 console.log(first1.concat(second));
 ```
 
+### Array slice or splice.
+
+```javascript
+const number1 = [33, 534, 24, 76, 89, 90, 06, 46];
+
+// slice
+console.log(number1.slice(3, 7)); //[76, 89, 90, 6]
+
+// splice
+console.log(number1.splice(3, 5)); //[ 76, 89, 90, 6, 46 ]
+
+console.log(number1.splice(3, 4));
+console.log(number1); // [ 76, 89, 90, 6 ]
+//after splice,the array list is now -  [ 33, 534, 24, 46 ]
+
+// added number of list
+console.log(number1.splice(3, 0, 222, 336, 553, 2178)); //[]
+console.log(number1); // [   33, 534,   24, 222,336, 553, 2178,  76,89,  90,    6,  46]
+```
+
+```javascript
+
+```
+
+```javascript
+
+```
+
 ```javascript
 
 ```
